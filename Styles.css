@@ -1,0 +1,320 @@
+
+
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.viewport-header {
+    position: relative;
+    height: 75%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Unbounded', cursive;
+    color: #4a3a27;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    line-height: 1.2;
+    text-align: center;
+}
+
+h1:hover {
+    color: white;
+}
+
+h4 {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 120%;
+}
+
+.main {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    position: relative;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 1rem auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .pianist {
+    filter: opacity(1);
+    }
+
+    .mainBook {
+      background-color: black;
+      opacity: 0.7;
+      color: white;
+      position: relative;
+      padding: 1rem;
+      max-width: 100%;
+      margin: 1rem auto;
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .experience {
+    background-color: white;
+    color: black;
+    position: relative;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 1rem auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .experienceOne {
+      background-color: black;
+    color: white;
+    position: relative;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 1rem auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    }
+
+
+      .slide-toggle{
+        display: none;
+      }
+      
+      .slidemenu{
+        font-family: 'Nanum Gothic', sans-serif;
+        max-width: 100%;
+        margin: 30px auto;
+        overflow: hidden;
+      }
+      
+      .slidemenu label{
+        width: 25%;
+        text-align: center;
+        display: block;
+        float: left;
+        color: #333;
+        opacity: 0.9;
+      }
+      
+      .slidemenu label:hover{
+        cursor: pointer;
+        color: white;
+      }
+      
+      .slidemenu label span{
+        display: block;
+        padding: 10px;    
+      }
+      
+      .slidemenu label .icon{
+        font-size: 20px;
+        border: solid 2px #333;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        display: block;
+        margin: 0 auto;
+        line-height: 50px;
+        border-radius: 50%;
+      }
+      
+      .books {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 15px;
+      }
+
+      .element {
+        border: 2px solid #576F72;;
+        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #576F72;
+        background-color: #F0EBE3;
+        padding: 20px;
+        margin: 10px;
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+
+      .bookPad {
+        background-image: url(https://images.unsplash.com/photo-1628245124458-96793b50eba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+        background-size: cover;
+      }
+
+      .link {
+        background-color: #576F72;
+        color: #F0EBE3;
+        border: 1px solid #333;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+
+      .link:hover {
+        cursor: pointer;
+        background-color: #F0EBE3;
+        color: #333;
+      }
+
+      .btnParent {
+        display: flex;
+        justify-content: center;
+      }
+
+      .btnMain {
+        background-color: #F0EBE3;
+        color: #333;
+        flex: 1;
+        border: none;
+        border-radius: 15px;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+
+      .btnMain:hover {
+        cursor: pointer;
+        background-color: #576F72;
+        color: #F0EBE3;
+      }
+
+      .headerBook {
+        align-self: center;
+      }
+
+      .headerBook:hover {
+        color: #F0EBE3;
+        background-color: #333;
+      }
+
+      .form {
+        padding: 20px;
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+
+      .mainForm {
+    background-image: url(https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: arial, sans-serif;
+    color: white;
+    position: relative;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 1rem auto;
+    height: 700px;
+    font-family: 'Nanum Gothic', sans-serif;
+      }
+
+      .cta {
+        font-family: 'Nanum Gothic', sans-serif;
+        text-transform: uppercase;
+        margin-left: 15px;
+        font-size: 20px;
+        padding: 15px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 30px;
+      }
+      .cta:hover {
+        background-color: #fff;
+        color: #333;
+        transition: all 1s ease-in;
+      }
+
+      .space {
+        padding: 10px;
+        border: 2px solid white;
+      }
+
+      .menuBooks {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #333;
+        opacity: 0.7;
+        padding: 10px;
+      }
+
+      .item {
+        padding: 10px;
+        text-decoration: none;
+        color: #F0EBE3;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: smaller;
+      }
+
+      .one {
+        margin-right: auto;
+        text-transform: uppercase;
+      }
+
+      .one:hover {
+        color: white;
+        font-size: large;
+      }
+
+      .item:hover:hover {
+        color: white;
+        font-size: large;
+      }
+
+      .onePiece {
+        background-color: white;
+        position: relative;
+      }
+
+      @media all and (max-width:800px){
+        .element {
+          background-color: #D8D9CF;
+        }
+        .pianist{
+          width: 150px;
+        }
+        .navbar {
+          padding: 10px;
+        }
+
+
+      }
+      
+      @media all and (max-width:500px){
+        .element {
+          background-color: #D8D9CF;
+        }
+
+        .navbar {
+          padding: 5px;
+        }
+        .headerBook {
+          font-size: 15px;
+        }
+        .pianist{
+          width: 150px;
+        }
+
+
+
+    }
+
